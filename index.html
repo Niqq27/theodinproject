@@ -1,26 +1,53 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>
-			Google Home
-		</title>
-		<link rel="stylesheet" href="stylesheet.css">
-	</head>
-	<body>
-		<div id="Header">
-			<img src="https://www.google.de/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-		</div>
-		<div>
-		<form action="#" method="post" name="myform" id="Searchbar">
-			
-			<input type="text" name="Searchbar">
 
-		</form>
-		</div>
-		<div id="Buttons">
-			
-        <button id="button1"></button>
-        <button id="button2"></button>
-
-		</div>
-	</body>
+<head>
+  <title>Google</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li id="profile"><a href="#" title="Google Account: Oleh Sliusar
+(olehsliusar@gmail.com)" role="button"><div></div></a></li>
+      <li id="notifs"><a href="#" title="0 Google notifications" role="button">
+        <img src="img/notifs.png">
+      </a></li>
+      <li id="options"><a href="#" title="Google apps" role="button"><div></div></a></li>
+      <li id="images"><a href="#">Images</a></li>
+      <li id="gmail"><a href="#">Gmail</a></li>
+    </ul>
+  </nav>
+  <div id="content"></div>
+    <form method="GET">
+      <center>
+        <div id="logo">
+          <img src="img/googlelogo.png" alt="Google logo">
+        </div>
+          <input type="search" name="googlesearch" title="Search" autofocus>
+      </center>
+      <div class="buttons">
+        <center>
+          <input type="submit" name="search-button" value="Google Search">
+          <input type="submit" name="search-button" value="I'm Feeling Lucky">
+        </center>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <ul>
+      <div id="left-footer">
+        <li><a href="#">Advertising</li>
+        <li><a href="#">Business</li>
+        <li><a href="#">About</li>
+      </div>
+      <div id="right-footer">
+        <li><a href="#">Settings</li>
+        <li><a href="#">Terms</li>
+        <li><a href="#">Privacy</li>
+      </div>
+    </ul>
+  </footer>
+</body>
 </html>
