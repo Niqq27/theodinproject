@@ -1,6 +1,8 @@
 div{
 	border: solid black 1px;
-	display: block;
+	display: inline-block;
+	float: left;
+	padding-left: 20px;
 }
 
 #header{
@@ -15,5 +17,6 @@ div{
 #Searchbar{
 
 	background-image: url("https://www.google.com/search/about/img/components/landing/hero/desktop/search-bar-top.png");
+	background-repeat: no-repeat;
 }
 
