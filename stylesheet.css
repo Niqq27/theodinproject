@@ -1,5 +1,6 @@
 div{
 	border: solid black 1px;
+	display: block;
 }
 
 #header{
@@ -13,6 +14,6 @@ div{
 
 #Searchbar{
 
-	background-image: url("data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D");
+	background-image: url(https://www.google.com/search/about/img/components/landing/hero/desktop/search-bar-top.png);
 }
 
