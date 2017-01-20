@@ -108,7 +108,7 @@ footer {
 #left-footer {
 
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	left: 5px;
 	
 }
@@ -116,7 +116,7 @@ footer {
 #right-footer {
 
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	right: 5px;
 	
 }
