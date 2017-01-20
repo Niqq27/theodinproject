@@ -98,27 +98,34 @@ footer {
 
 	position: absolute;
 	bottom: 5px;
-	display: inline-block;
+	left: 0px;
+	right: 0px;
+	
 
 
 }
 
-footer#left-footer a{
+#left-footer {
 
 	left: 5px;
-	display: inline-block;
+	
 }
 
-footer#right-footer a{
+#right-footer {
 
 	right: 5px;
-	display: inline-block;
+	
 }
 
 footer a {
 
 	text-decoration: none;
 	color: black;
+}
+
+footer li{
+
+	display: inline;
 }
 
 
