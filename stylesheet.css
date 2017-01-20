@@ -83,7 +83,7 @@ button {
 
 }
 
-div .buttons:hover{
+.buttons:hover{
 
 	text-decoration-color: black;
 	color: black;
