@@ -110,7 +110,7 @@ footer {
 #left-footer {
 
 	position: absolute;
-	display: inline;
+	display: block;
 	left: 5px;
 	clear: right;
 	
@@ -119,7 +119,7 @@ footer {
 #right-footer {
 
 	position: absolute;
-	display: inline;
+	display: block;
 	right: 5px;
 	clear: left;
 	
@@ -129,6 +129,7 @@ footer a {
 
 	text-decoration: none;
 	color: black;
+	
 }
 
 
@@ -141,6 +142,9 @@ footer div{
 
 footer li{
 	list-style-type: none; 
+	padding: 5px 10px 5px 10px;
+	margin-right: 5px;
+	display: inline;
 
 }
 
