@@ -112,6 +112,7 @@ footer {
 	position: absolute;
 	display: inline;
 	left: 5px;
+	clear: right;
 	
 }
 
@@ -120,6 +121,7 @@ footer {
 	position: absolute;
 	display: inline;
 	right: 5px;
+	clear: left;
 	
 }
 
