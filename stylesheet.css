@@ -103,12 +103,12 @@ footer {
 
 }
 
-#left-footer{
+footer#left-footer{
 
 	left: 5px;
 }
 
-#right-footer{
+footer#right-footer{
 
 	right: 5px;
 }
