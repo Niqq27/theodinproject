@@ -71,7 +71,8 @@ button {
 
 	display: inline-block;
 	margin-top: 15px;
-	border: #e4d6d6;
+	border: 2px solid #e4d6d6;
+	border-radius: 2px;
 	background-color: blue;
 	text-decoration-color: grey;
 	color: #353131;
@@ -87,8 +88,26 @@ button:hover{
 
 	text-decoration-color: black;
 	color: black;
-	border: grey;
+	border: 1px solid grey;
 
+}
+
+footer ul li{
+
+	position: absolute;
+	bottom: 0px;
+	
+
+}
+
+#leftfooter{
+
+	float: left;
+}
+
+#rightfooter{
+
+	float: right;
 }
 
 
