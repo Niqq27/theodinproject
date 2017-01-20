@@ -115,6 +115,8 @@ footer {
 	display: block;
 	left: 5px;
 	clear: right;
+	float: left;
+
 	
 }
 
@@ -124,6 +126,7 @@ footer {
 	display: block;
 	right: 5px;
 	clear: left;
+	float: right;
 	
 }
 
