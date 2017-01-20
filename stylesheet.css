@@ -21,7 +21,9 @@ nav li {
 nav li a {
 	text-decoration: none;
 	color: black;
-	padding: 5px 0px 0px 0px;
+	padding: 3px 0px 0px 0px;
+	margin-left: 5px;
+	margin-top: 7px;
 }
 
 nav li a:hover{
@@ -92,11 +94,11 @@ button:hover{
 
 }
 
-footer ul li{
+footer li{
 
 	position: absolute;
-	bottom: 0px;
-	display: inline;
+	bottom: 5px;
+	display: inline-block;
 
 
 }
