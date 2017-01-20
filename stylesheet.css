@@ -101,6 +101,7 @@ footer {
 	width: 100%;
 	clear: both;
 	display: inline;
+
 	
 
 
@@ -109,7 +110,7 @@ footer {
 #left-footer {
 
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	left: 5px;
 	
 }
@@ -117,7 +118,7 @@ footer {
 #right-footer {
 
 	position: absolute;
-	display: inline-block;
+	display: inline;
 	right: 5px;
 	
 }
@@ -133,7 +134,12 @@ footer a {
 footer div{
 
 	border: solid 1px grey;
-	display: inline-block;
+	display: inline;
+}
+
+footer li{
+	list-style-type: none; 
+
 }
 
 
