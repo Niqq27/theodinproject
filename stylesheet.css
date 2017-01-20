@@ -96,7 +96,8 @@ footer ul li{
 
 	position: absolute;
 	bottom: 0px;
-	
+	display: inline;
+
 
 }
 
@@ -108,6 +109,12 @@ footer ul li{
 #rightfooter{
 
 	float: right;
+}
+
+footer a {
+
+	text-decoration: none;
+	color: black;
 }
 
 
