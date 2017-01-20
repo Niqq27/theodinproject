@@ -103,6 +103,8 @@ footer {
 	display: block;
 	left: 0px;
 	right: 0px;
+	background-color: grey;
+	
 
 	
 
@@ -142,7 +144,7 @@ footer a {
 
 footer div{
 
-	border: solid 1px grey;
+
 	display: inline;
 }
 
