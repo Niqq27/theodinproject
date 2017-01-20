@@ -103,13 +103,13 @@ footer {
 
 }
 
-footer#left-footer{
+footer#left-footer a{
 
 	left: 5px;
 	display: inline-block;
 }
 
-footer#right-footer{
+footer#right-footer a{
 
 	right: 5px;
 	display: inline-block;
