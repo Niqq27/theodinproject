@@ -18,6 +18,22 @@ nav li {
     float: right;
 }
 
+nav li a {
+	text-decoration: none;
+	color: black;
+	padding: 5px 0px 0px 0px;
+}
+
+nav li a:hover{
+
+	text-decoration: underline;
+}
+
+nav li a #gmail {
+
+	margin-right: 5px;
+}
+
 
 
 /* Logo and searchbox */
@@ -49,5 +65,25 @@ input[type="search"] {
   overflow: visible;
   white-space: nowrap;
 }
+
+div.buttons {
+
+	margin-top: 15px;
+	border: none;
+	background-color: blue;
+	text-decoration-color: grey;
+	color: grey;
+
+
+}
+
+div .buttons:hover{
+
+	text-decoration-color: black;
+	color: black;
+	border: solid 1px grey;
+}
+
+
 
 
