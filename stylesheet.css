@@ -68,11 +68,16 @@ input[type="search"] {
 
 div.buttons {
 
+	display: inline-block;
 	margin-top: 15px;
 	border: none;
 	background-color: blue;
 	text-decoration-color: grey;
 	color: grey;
+	background-color: grey;
+	padding: 2px 0px 2px 0px;
+	font-size: 15px;
+	
 
 
 }
@@ -82,7 +87,10 @@ div .buttons:hover{
 	text-decoration-color: black;
 	color: black;
 	border: solid 1px grey;
+
 }
+
+
 
 
 
