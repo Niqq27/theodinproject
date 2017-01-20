@@ -101,6 +101,8 @@ footer {
 	width: 100%;
 	clear: both;
 	display: block;
+	left: 0px;
+	right: 0px;
 
 	
 
@@ -129,6 +131,7 @@ footer a {
 
 	text-decoration: none;
 	color: black;
+	display: inline;
 	
 }
 
