@@ -64,9 +64,10 @@ input[type="search"] {
   line-height: 0;
   overflow: visible;
   white-space: nowrap;
+  color: grey;
 }
 
-div.buttons {
+button {
 
 	display: inline-block;
 	margin-top: 15px;
