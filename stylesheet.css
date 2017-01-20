@@ -106,11 +106,13 @@ footer {
 footer#left-footer{
 
 	left: 5px;
+	display: inline-block;
 }
 
 footer#right-footer{
 
 	right: 5px;
+	display: inline-block;
 }
 
 footer a {
