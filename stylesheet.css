@@ -105,12 +105,12 @@ footer {
 
 #leftfooter{
 
-	float: left;
+	left: 5px;
 }
 
 #rightfooter{
 
-	float: right;
+	right: 5px;
 }
 
 footer a {
